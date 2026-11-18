@@ -8,6 +8,7 @@ java_library {
 
 java_library {
     name: "org.lineageos.settings.resources",
+    use_resource_processor: true,
     manifest: "settings-res/AndroidManifest.xml",
     resource_dirs: ["settings-res/res"],
 }
