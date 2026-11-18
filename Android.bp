@@ -14,6 +14,3 @@ android_library {
 }
 
 
-cc_library_shared {
-    name: "vendor.qti.hardware.display.config-V16-ndk",
-}
