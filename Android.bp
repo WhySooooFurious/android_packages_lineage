@@ -17,3 +17,7 @@ cc_library_headers {
     name: "display_intf_headers",
     export_include_dirs: ["../hardware/qcom-caf/sm8650/display/include"],
 }
+
+cc_library_shared {
+    name: "vendor.qti.hardware.display.config-V16-ndk",
+}
