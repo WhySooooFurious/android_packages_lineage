@@ -12,3 +12,8 @@ android_library {
     manifest: "settings-res/AndroidManifest.xml",
     resource_dirs: ["settings-res/res"],
 }
+
+cc_library_headers {
+    name: "display_intf_headers",
+    export_include_dirs: ["../hardware/qcom-caf/sm8650/display/include"],
+}
