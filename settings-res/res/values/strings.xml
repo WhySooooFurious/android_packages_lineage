@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mdnie_scenario_sysfs_file">/sys/devices/virtual/graphics/fb0/mdnie_scenario</string>
+    <string name="mdnie_accessibility_sysfs_file">/sys/devices/virtual/graphics/fb0/mdnie_accessibility</string>
+</resources>

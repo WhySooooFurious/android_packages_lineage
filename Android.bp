@@ -1,0 +1,13 @@
+// Minimal stub of the LineageOS platform java modules (packages/lineage)
+// missing from the CLO/AOSPA base, needed by hardware/samsung apps + FlipFlap.
+
+java_library {
+    name: "org.lineageos.platform.internal",
+    srcs: ["java/**/*.java"],
+}
+
+java_library {
+    name: "org.lineageos.settings.resources",
+    manifest: "settings-res/AndroidManifest.xml",
+    resource_dirs: ["settings-res/res"],
+}
