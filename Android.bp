@@ -6,7 +6,7 @@ java_library {
     srcs: ["java/**/*.java"],
 }
 
-java_library {
+android_library {
     name: "org.lineageos.settings.resources",
     use_resource_processor: true,
     manifest: "settings-res/AndroidManifest.xml",
