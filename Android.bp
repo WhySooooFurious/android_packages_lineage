@@ -18,9 +18,9 @@ android_library {
 cc_library_headers {
     name: "generated_kernel_headers",
     export_include_dirs: [
-        "../../kernel/samsung/sm8650/include",
-        "../../kernel/samsung/sm8650/include/uapi",
-        "../../kernel/samsung/sm8650/arch/arm64/include",
-        "../../kernel/samsung/sm8650/arch/arm64/include/uapi",
+        "kernel-samsung-sm8650/include",
+        "kernel-samsung-sm8650/include/uapi",
+        "kernel-samsung-sm8650/arch/arm64/include",
+        "kernel-samsung-sm8650/arch/arm64/include/uapi",
     ],
 }
